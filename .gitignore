@@ -1,0 +1,5 @@
+/vendor
+/tmp
+/node_modules
+env.json
+.DS_Store

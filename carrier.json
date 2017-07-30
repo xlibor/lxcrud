@@ -1,0 +1,14 @@
+{
+    "name": "lxlib/lxcrud",
+    "description": "lxlib demo for crud",
+    "keywords": ["lxlib", "openresty", "demo"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "pintsized/lua-resty-http": ">=0.10",
+        "lua-cmsgpack": "",
+        "luafilesystem": ""
+    },
+    "require-dev": {
+    }
+}
