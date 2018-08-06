@@ -11,8 +11,9 @@ local conf = {
 			user 		= env('db.user', ''),
 			database 	= env('db.database', ''),
 			password 	= env('db.password', ''),
-			port = 3306,
-			pool = 5
+			port 		= 3306,
+			poolSize 	= 5,
+			charset		= 'utf8'
 		},
 		sqlite = {
 			driver = 'sqlite',
